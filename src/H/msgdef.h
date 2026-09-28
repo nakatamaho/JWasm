@@ -1,4 +1,27 @@
 
+/*
+ * M18 modification, 2026-09-28: pins the banner for reproducibility and
+ * identifies the corresponding public source.
+ *
+ * Portions Copyright (c) 1983-2002 Sybase, Inc. All Rights Reserved.
+ *
+ * This file contains Original Code and/or Modifications of Original Code
+ * as defined in and that are subject to the Sybase Open Watcom Public
+ * License version 1.0 (the 'License'). You may not use this file except in
+ * compliance with the License. BY USING THIS FILE YOU AGREE TO ALL TERMS
+ * AND CONDITIONS OF THE LICENSE. A copy of the License is provided with
+ * the Original Code and Modifications, and is also available at
+ * www.sybase.com/developer/opensource.
+ *
+ * The Original Code and all software distributed under the License are
+ * distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER
+ * EXPRESS OR IMPLIED, AND SYBASE AND ALL CONTRIBUTORS HEREBY DISCLAIM ALL
+ * SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR
+ * NON-INFRINGEMENT. Please see the License for the specific language
+ * governing rights and limitations under the License.
+ */
+
 /* message texts.
  * since msg numbers shouldn't change, new ids must be added at the end -
  * unless a free entry is reused (search for "_unused"!)
@@ -8,8 +31,8 @@
  */
 pick( MSG_USAGE,              "usage: JWasm [ options ] filelist [@{env_var | resp_file}]\n" )
 pick( MSG_ASSEMBLY_RESULTS,   "%s: %lu lines, %u passes, %u ms, %u warnings, %u errors" )
-pick( MSG_JWASM,              "JWasm v" _JWASM_VERSION_ ", " __DATE__ )
-pick( MSG_JWASM2,             "Masm-compatible assembler.\n" "Portions Copyright (c) 1992-2002 Sybase, Inc. All Rights Reserved.\n" "Source code is available under the Sybase Open Watcom Public License.\n" )
+pick( MSG_JWASM,              "JWasm v" _JWASM_VERSION_ ", M18 reproducible build" )
+pick( MSG_JWASM2,             "Masm-compatible assembler.\n" "Portions Copyright (c) 1992-2002 Sybase, Inc. All Rights Reserved.\n" "Source/license: Sybase Open Watcom Public License 1.0; source is in the M18 bundle under JWASM/.\n" )
 pick( MSG_ERROR_PREFIX,       "Error" )
 pick( MSG_WARNING_PREFIX,     "Warning" )
 pick( MSG_FATAL_PREFIX,       "Fatal error" )
