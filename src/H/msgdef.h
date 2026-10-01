@@ -1,7 +1,7 @@
 
 /*
- * M18 modification, 2026-09-28: pins the banner for reproducibility and
- * identifies the corresponding public source.
+ * PC-88VA FreeDOS modification (M18 2026-09-28, revised in M19): pins the
+ * banner for reproducibility and identifies the corresponding public source.
  *
  * Portions Copyright (c) 1983-2002 Sybase, Inc. All Rights Reserved.
  *
@@ -31,8 +31,8 @@
  */
 pick( MSG_USAGE,              "usage: JWasm [ options ] filelist [@{env_var | resp_file}]\n" )
 pick( MSG_ASSEMBLY_RESULTS,   "%s: %lu lines, %u passes, %u ms, %u warnings, %u errors" )
-pick( MSG_JWASM,              "JWasm v" _JWASM_VERSION_ ", M18 reproducible build" )
-pick( MSG_JWASM2,             "Masm-compatible assembler.\n" "Portions Copyright (c) 1992-2002 Sybase, Inc. All Rights Reserved.\n" "Source/license: Sybase Open Watcom Public License 1.0; source is in the M18 bundle under JWASM/.\n" )
+pick( MSG_JWASM,              "JWasm v" _JWASM_VERSION_ ", PC-88VA FreeDOS reproducible build" )
+pick( MSG_JWASM2,             "Masm-compatible assembler.\n" "Portions Copyright (c) 1992-2002 Sybase, Inc. All Rights Reserved.\n" "Source/license: Sybase Open Watcom Public License 1.0; source is jwasm.tar in the FreeDOS PC-88VA source bundle.\n" )
 pick( MSG_ERROR_PREFIX,       "Error" )
 pick( MSG_WARNING_PREFIX,     "Warning" )
 pick( MSG_FATAL_PREFIX,       "Fatal error" )
